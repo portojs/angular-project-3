@@ -1,5 +1,10 @@
 /* app css stylesheet */
 
+body {
+  background: #fff;
+  color: #999;
+}
+
 a {
   color: #5f9ea0;
   text-decoration: none;
@@ -28,6 +33,11 @@ nav a:visited {
   color: white;
 }
 
+nav a:hover,
+nav a.selected {
+  color: #32673f;
+}
+
 #logo {
   text-align: center;
   margin: 0;
@@ -37,8 +47,4 @@ nav a:visited {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
-}
-
-.link_selected {
-  background: orange;
 }
