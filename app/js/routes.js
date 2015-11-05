@@ -4,7 +4,11 @@
 angular.module('mercCompany')
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider
-      .when('/company', {redirectTo: 'templates/pages/company.index.html'})
-      .when( '/', {redirectTo: 'templates/pages/company.index.html'})
+      .when('/company', {
+        templateUrl: 'templates/pages/company/index.html'
+      })
+      .when( '/', {
+        templateUrl: 'templates/pages/company/index.html'
+      })
       .otherwise({redirectTo: '/'});
   }]);
