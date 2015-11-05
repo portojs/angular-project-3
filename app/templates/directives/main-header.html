@@ -5,8 +5,8 @@
   </a>
   <nav>
     <ul class="menu">
-      <li><a href="#/company">The Company</a></li>
-      <li><a href="#/requests">Your Requests</a></li>
+      <li ng-class="{link_selected : linkIsSelected(1)}"><a href="#/company" ng-click="selectLink(1)">The Company</a></li>
+      <li ng-class="{link_selected : linkIsSelected(2)}"><a href="#/requests" ng-click="selectLink(2)">Your Requests</a></li>
     </ul>
   </nav>
 </header>
