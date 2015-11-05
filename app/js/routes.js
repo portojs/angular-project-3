@@ -7,6 +7,9 @@ angular.module('mercCompany')
       .when('/company', {
         templateUrl: 'templates/pages/company/index.html'
       })
+      .when('/requests', {
+        templateUrl: 'templates/pages/requests/index.html'
+      })
       .when( '/', {
         templateUrl: 'templates/pages/company/index.html'
       })
