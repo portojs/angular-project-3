@@ -1,27 +1,40 @@
 /* app css stylesheet */
 
-.main-header {
-  background-color: #5f9ea0;
-  color: white;
-  text-align: center;
-
-}
-
-.logo {
-  font-size: 3em;
-  margin: 10px 20px;
-}
-
-.main-header ul {
-  display: inline-block;
-}
-
-.main-header li {
-  list-style: none;
-  display: inline-block;
-}
-
-.main-header a {
+a {
+  color: #5f9ea0;
   text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+header {
+  background: #5f9ea0;
+  border-color: darkcyan;
+}
+
+nav {
+  background: darkcyan;
+}
+
+nav a,
+nav a:visited {
   color: white;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
 }
