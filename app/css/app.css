@@ -1,4 +1,82 @@
-/* app css stylesheet */
+
+
+/*****************************************************
+GENERAL
+*****************************************************/
+
+body {
+  font-family: 'Raleway', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+
+
+/*****************************************************
+MAIN-HEADER
+*****************************************************/
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+  margin: 15px 0;
+}
+
+h2 {
+  font-size: 0.75em;
+  font-weight: normal;
+  margin: -5px 0 0;
+}
+
+
+
+/*****************************************************
+NAVIGATION
+*****************************************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+
+
+/*****************************************************
+MAIN-FOOTER
+*****************************************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+
+
+/*****************************************************
+COLORS
+*****************************************************/
 
 body {
   background: #fff;
@@ -7,21 +85,16 @@ body {
 
 a {
   color: #5f9ea0;
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
-}
-
-h1,
-h2 {
-  color: #fff;
 }
 
 header {
   background: #5f9ea0;
   border-color: darkcyan;
+}
+
+h1,
+h2 {
+  color: #fff;
 }
 
 nav {
@@ -36,15 +109,4 @@ nav a:visited {
 nav a:hover,
 nav a.selected {
   color: #32673f;
-}
-
-#logo {
-  text-align: center;
-  margin: 0;
-}
-
-#wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
 }
