@@ -3,7 +3,7 @@
     <li ng-class="{ selected_panel : selectedPanel(1) }" ng-click="selectPanel(1)">Bio</li>
     <li ng-class="{ selected_panel : selectedPanel(2) }" ng-click="selectPanel(2)">Details</li>
   </ul>
-  <div ng-show="selectedPanel(1)">{{merc.bio}}</div>
+  <div class="merc_bio" ng-show="selectedPanel(1)">{{merc.bio}}</div>
   <div class="merc_details" ng-show="selectedPanel(2)">
     <ul>
       <li>Accuracy: {{merc.accuracy}}</li>

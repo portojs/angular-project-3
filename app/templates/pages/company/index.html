@@ -7,9 +7,11 @@
       <a ng-href="img/{{merc.image}}">
         <img ng-src="img/{{merc.image}}" alt="{{merc.name}}">
       </a>
-      <p class="merc_name">{{merc.name}}</p>
-      <p class="merc_spec">{{merc.specialty}}</p>
-      <merc-panels merc="merc"></merc-panels>
+      <div class="merc_wrapper">
+        <p class="merc_name">{{merc.name}}</p>
+        <p class="merc_spec">{{merc.specialty}}</p>
+        <merc-panels merc="merc"></merc-panels>
+      </div>
     </li>
   </ul>
 
