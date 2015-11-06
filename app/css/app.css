@@ -32,6 +32,13 @@ img {
 MAIN-HEADER
 *****************************************************/
 
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
 #logo {
   text-align: center;
   margin: 0;
@@ -82,6 +89,11 @@ footer {
 /*****************************************************
 PAGE: THE COMPANY
 *****************************************************/
+
+h3 {
+  text-align: center;
+  clear: both;
+}
 
 #merc_company {
   margin: 0;
