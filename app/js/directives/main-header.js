@@ -11,7 +11,7 @@ angular.module('mercCompany')
         scope.selectLink = function(linkNr) {
           scope.link = linkNr;
         };
-        scope.linkIsSelected = function(linkNr) {
+        scope.selectedLink = function(linkNr) {
           return scope.link === linkNr;
         };
       }
