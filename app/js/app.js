@@ -1,1 +1,1 @@
-angular.module('mercCompany', ['ngRoute']);
+angular.module('mercCompany', ['ngRoute', 'ngResource']);
