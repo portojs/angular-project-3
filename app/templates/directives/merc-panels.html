@@ -1,10 +1,10 @@
 <div>
-  <ul>
+  <ul class="merc_panels">
     <li ng-class="{ selected_panel : selectedPanel(1) }" ng-click="selectPanel(1)">Bio</li>
     <li ng-class="{ selected_panel : selectedPanel(2) }" ng-click="selectPanel(2)">Details</li>
   </ul>
-  <div class="merc_bio">Born in USSR, trained in KGB, a true ruthless professional.</div>
-  <div class="merc_details">
+  <div ng-show="selectedPanel(1)">Born in USSR, trained in KGB, a true ruthless professional.</div>
+  <div class="merc_details" ng-show="selectedPanel(2)">
     <ul>
       <li>Accuracy: 85</li>
       <li>Demolitions: 115</li>

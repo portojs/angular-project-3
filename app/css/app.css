@@ -100,26 +100,8 @@ PAGE: THE COMPANY
   display: block;
 }
 
-.merc_pane ul {
-  padding-left: 0;
-}
-
-.merc_pane li {
-  display: inline-block;
-}
-
-.merc_pane li:first-child {
-  padding-right: 10px;
-  border-right: 1px solid #9E9E9E;
-}
-
-.merc_pane li:nth-child(2) {
-  padding-left: 10px;
-  margin-left: -5px;
-}
-
-.merc_pane .merc_name,
-.merc_pane .merc_spec {
+.merc_name,
+.merc_spec {
   display: inline-block;
 }
 
@@ -127,9 +109,30 @@ PAGE: THE COMPANY
   float: right;
 }
 
+.merc_panels,
+.merc_details ul {
+  padding-left: 0;
+}
+
+.merc_panels li {
+  display: inline-block;
+}
+
+.merc_panels li:first-child {
+  padding-right: 10px;
+  border-right: 1px solid #9E9E9E;
+}
+
+.merc_panels li:nth-child(2) {
+  padding-left: 10px;
+  margin-left: -5px;
+}
+
 .selected_panel {
   color: black;
 }
+
+
 
 /*****************************************************
 COLORS
