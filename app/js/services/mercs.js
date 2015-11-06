@@ -3,5 +3,5 @@
  */
 angular.module('mercCompany')
   .factory('Mercs', function MercsFactory($resource) {
-    return $resource('json/mercs.json', {}, {});
+      return $resource('json/mercs.json', {}, {});
   });

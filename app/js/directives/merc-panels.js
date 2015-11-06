@@ -6,6 +6,9 @@ angular.module('mercCompany')
     return {
       restrict: 'E',
       templateUrl: 'templates/directives/merc-panels.html',
+      scope: {
+        merc: "="
+      },
       link: function(scope) {
         scope.panel = 1;
         scope.selectPanel = function(panelNr) {

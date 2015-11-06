@@ -1,35 +1,45 @@
 [
   {
     "id" : 1,
+    "image": "chuck.jpg",
     "name" : "Chuck Stravinsky",
+    "specialty": "Demolitions Expert",
     "bio" : "Born in USSR, trained in KGB, a true ruthless professional.",
     "accuracy" : 85,
     "demolitions": 110
   },
   {
     "id" : 2,
+    "image": "chuck.jpg",
     "name" : "Don Jhonovan",
+    "specialty": "Marksman Instructor",
     "bio" : "Good old CIA-guy.",
     "accuracy" : 140,
     "demolitions": 40
   },
   {
     "id" : 3,
+    "image": "chuck.jpg",
     "name" : "Jim Odessa",
+    "specialty": "Infiltration Expert",
     "bio" : "Evil Russian.",
     "accuracy" : 90,
     "demolitions": 75
   },
   {
     "id" : 4,
+    "image": "chuck.jpg",
     "name" : "Bob Urqhart",
+    "specialty": "Heavy Machinery Expert",
     "bio" : "Strange fellow, always wears a sword with him.",
     "accuracy" : 80,
     "demolitions": 20
   },
   {
-    "id" : 4,
+    "id" : 5,
+    "image": "chuck.jpg",
     "name" : "Korvin Dallas",
+    "specialty": "Rescue Missions Expert",
     "bio" : "High-tech guy.",
     "accuracy" : 101,
     "demolitions": 100

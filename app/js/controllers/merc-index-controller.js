@@ -3,8 +3,5 @@
  */
 angular.module('mercCompany')
   .controller('MercIndexController', function($scope, Mercs) {
-    Mercs()
-      .success(function(data) {
-        $scope.mercs = data;
-      });
+    $scope.mercs = Mercs.query();
   });
