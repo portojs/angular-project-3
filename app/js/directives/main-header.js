@@ -7,7 +7,7 @@ angular.module('mercCompany')
       restrict: 'E',
       templateUrl: 'templates/directives/main-header.html',
       link: function(scope) {
-        scope.link = 1;
+        scope.link = 2;
         scope.selectLink = function(linkNr) {
           scope.link = linkNr;
         };
