@@ -16,7 +16,9 @@ angular.module('mercCompany')
         templateUrl: 'templates/pages/contact/index.html'
       })
       .when( '/', {
-        templateUrl: 'templates/pages/company/index.html'
+        templateUrl: 'templates/pages/company/index.html',
+        controller: 'MercIndexController',
+        controllerAs: 'indexCtrl'
       })
       .otherwise({redirectTo: '/'});
   }]);

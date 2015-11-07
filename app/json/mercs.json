@@ -2,6 +2,7 @@
   {
     "id" : 1,
     "image": "chuck.jpg",
+    "email": "chuck@gmail.com",
     "name" : "Chuck Stravinsky",
     "specialty": "Demolitions Expert",
     "bio" : "Born in USSR, trained in KGB, a true ruthless professional.",
@@ -11,6 +12,7 @@
   {
     "id" : 2,
     "image": "chuck.jpg",
+    "email": "don@gmail.com",
     "name" : "Don Jhonovan",
     "specialty": "Marksman Instructor",
     "bio" : "Good old CIA-guy.",
@@ -20,6 +22,7 @@
   {
     "id" : 3,
     "image": "chuck.jpg",
+    "email": "odessa@gmail.com",
     "name" : "Jim Odessa",
     "specialty": "Infiltration Expert",
     "bio" : "Evil Russian.",
@@ -29,6 +32,7 @@
   {
     "id" : 4,
     "image": "chuck.jpg",
+    "email": "urqhart@gmail.com",
     "name" : "Bob Urqhart",
     "specialty": "Heavy Machinery Expert",
     "bio" : "Strange fellow, always wears a sword with him.",
@@ -38,6 +42,7 @@
   {
     "id" : 5,
     "image": "chuck.jpg",
+    "email": "korvin@gmail.com",
     "name" : "Korvin Dallas",
     "specialty": "Rescue Missions Expert",
     "bio" : "High-tech guy.",

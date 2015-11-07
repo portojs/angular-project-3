@@ -4,8 +4,8 @@
 
   <ul>
     <li class="merc_pane" ng-repeat="merc in mercs">
-      <a ng-href="img/{{merc.image}}">
-        <img ng-src="img/{{merc.image}}" alt="{{merc.name}}">
+      <a ng-href="{{gravatarUrl(merc.email)}}">
+        <img ng-src="{{gravatarUrl(merc.email)}}" alt="{{merc.name}}">
       </a>
       <div class="merc_wrapper">
         <p class="merc_name">{{merc.name}}</p>

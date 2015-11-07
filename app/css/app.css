@@ -120,6 +120,7 @@ h3 {
 }
 
 .merc_pane img {
+  margin: auto;
   display: block;
 }
 
