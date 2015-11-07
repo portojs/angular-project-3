@@ -24,6 +24,7 @@ img {
 
 h3 {
   margin: 0 0 1em 0;
+  clear: both;
 }
 
 
@@ -121,11 +122,6 @@ PAGE: ABOUT
 /*****************************************************
 PAGE: MERCS
 *****************************************************/
-
-h3 {
-  text-align: center;
-  clear: both;
-}
 
 #merc_company {
   margin: 0;
