@@ -4,6 +4,9 @@
 angular.module('mercCompany')
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider
+      .when('/about', {
+        templateUrl: 'templates/pages/about/index.html'
+      })
       .when('/company', {
         templateUrl: 'templates/pages/company/index.html',
         controller: 'MercIndexController',

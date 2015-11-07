@@ -10,7 +10,7 @@ angular.module('mercCompany')
         merc: "="
       },
       link: function(scope) {
-        scope.panel = 1;
+        scope.panel = 2;
         scope.selectPanel = function(panelNr) {
           scope.panel = panelNr;
         };
