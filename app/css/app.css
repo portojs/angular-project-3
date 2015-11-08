@@ -164,6 +164,10 @@ PAGE: MERCS
   display: inline-block;
 }
 
+.merc_panels li:hover {
+  cursor: pointer;
+}
+
 .merc_panels li:first-child {
   padding-right: 10px;
   border-right: 1px solid #9E9E9E;
