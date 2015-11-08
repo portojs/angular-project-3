@@ -1,4 +1,9 @@
 @media screen and (max-width: 480px) {
+
+  /*****************************************************
+  PAGE: MERCS - ONE COLUMN LAYOUT
+  *****************************************************/
+
   .merc_pane {
     width: 90%;
     min-height: 0;
@@ -7,5 +12,41 @@
 
   merc-panels {
     display: none;
+  }
+}
+
+@media screen and (min-width: 480px) {
+
+  /*****************************************************
+  PAGE: CONTACT - TWO COLUMN LAYOUT
+  *****************************************************/
+
+  #primary {
+    width: 50%;
+    float: left;
+  }
+
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+}
+
+@media screen and (min-width: 960px) {
+
+  /*****************************************************
+  PAGE: MERCS - THREE COLUMN LAYOUT
+  *****************************************************/
+
+  .merc_pane {
+    width: 28.3333%;
+  }
+
+  .merc_pane:nth-child(3) {
+    clear: none;
+  }
+
+  .merc_pane:nth-child(4) {
+    clear: left;
   }
 }
