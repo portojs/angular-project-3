@@ -7,11 +7,8 @@
       <a ng-href="{{gravatarUrl(merc.email)}}">
         <img ng-src="{{gravatarUrl(merc.email)}}" alt="{{merc.name}}">
       </a>
-      <div class="merc_wrapper">
-        <p class="merc_name">{{merc.name}}</p>
-        <p class="merc_spec">{{merc.specialty}}</p>
-        <merc-panels merc="merc"></merc-panels>
-      </div>
+      <p class="merc_name">{{merc.name}} | {{merc.specialty}}</p>
+      <merc-panels merc="merc"></merc-panels>
     </li>
   </ul>
 

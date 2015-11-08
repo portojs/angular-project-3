@@ -146,14 +146,10 @@ PAGE: MERCS
   display: block;
 }
 
-.merc_name,
-.merc_spec {
-  display: inline-block;
+.merc_name {
+  padding: 10px 0 10px;
 }
 
-.merc_pane .merc_spec {
-  float: right;
-}
 
 .merc_panels,
 .merc_details ul {
