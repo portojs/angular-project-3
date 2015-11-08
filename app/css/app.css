@@ -193,6 +193,38 @@ PAGE: MERCS
 
 
 /*****************************************************
+PAGE: REQUESTS
+*****************************************************/
+
+.requests-page h3 {
+  text-align: center;
+}
+
+.request-categories {
+  /*width: 100%;*/
+  margin: 0 0 1em;
+  /*height: 40px;*/
+}
+
+.request-categories span {
+  display: inline-block;
+  min-height: 40px;
+  background: url('../img/phone.png') no-repeat center;
+  background-size: cover;
+  width: 40px;
+  margin: 25px;
+}
+
+.request-categories span:first-child {
+  margin-left: 0;
+}
+
+#search {
+  width: 250px;
+}
+
+
+/*****************************************************
 PAGE: CONTACT
 *****************************************************/
 
