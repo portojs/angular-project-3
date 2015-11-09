@@ -13,7 +13,9 @@ angular.module('mercCompany')
         controllerAs: 'indexCtrl'
       })
       .when('/requests', {
-        templateUrl: 'templates/pages/requests/index.html'
+        templateUrl: 'templates/pages/requests/index.html',
+        controller: 'RequestIndexController',
+        controllerAs: 'indexCtrl'
       })
       .when('/contact', {
         templateUrl: 'templates/pages/contact/index.html'

@@ -14,4 +14,11 @@
     <label for="search">Type below to search: </label>
     <input type="search" id="search">
   </div>
+  <div>
+    <ul>
+      <li ng-repeat="request in requests">
+        <p>{{request.id}}</p>
+      </li>
+    </ul>
+  </div>
 </div>
