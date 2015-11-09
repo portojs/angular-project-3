@@ -2,21 +2,21 @@
   {
     "id" : 1,
     "title": "Infiltration",
-    "body" : "I"
+    "mark" : "I"
   },
   {
     "id" : 2,
     "title": "Data Gathering",
-    "body" : "D"
+    "mark" : "D"
   },
   {
     "id" : 3,
     "title": "Assassination",
-    "body" : "A"
+    "mark" : "A"
   },
   {
     "id" : 4,
     "title": "Revolution",
-    "body" : "R"
+    "mark" : "R"
   }
 ]

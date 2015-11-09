@@ -3,12 +3,13 @@
   <h3>Here you can place your requests:</h3>
 
   <div class="request-categories">
-    <ul>
-      <li class="category-infiltration">I</li>
-      <li class="category-assassination">A</li>
-      <li class="category-gathering">D</li>
-      <li class="category-revolution">R</li>
-    </ul>
+    <!--<ul>-->
+      <!--<li class="category-infiltration">I</li>-->
+      <!--<li class="category-assassination">A</li>-->
+      <!--<li class="category-gathering">D</li>-->
+      <!--<li class="category-revolution">R</li>-->
+    <!--</ul>-->
+    <request-category-select active-category="activeCategory"></request-category-select>
   </div>
   <div class="request-search">
     <label for="search">Type below to search: </label>
@@ -16,7 +17,7 @@
   </div>
   <div id="request-list">
     <ul>
-      <li ng-repeat="request in requests | filter: search.input">
+      <li ng-repeat="request in requests | filter: search.input | filter: {category: activeCategory}">
         <p>Category: {{request.category}}</p>
         <p>Title: {{request.title}}</p>
         <p>Content: {{request.body}}</p>

@@ -196,6 +196,10 @@ PAGE: MERCS
 PAGE: REQUESTS
 *****************************************************/
 
+request-category-select {
+  margin-bottom: 1.25em;
+}
+
 .requests-page h3 {
   text-align: center;
 }
@@ -209,34 +213,29 @@ PAGE: REQUESTS
   margin-bottom: 1.25em;
 }
 
-.request-categories ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
-}
-
-.request-categories li {
+.request-categories a {
   font-size: 2em;
   display: inline-block;
   height: 40px;
   width: 40px;
   padding: 10px 10px;
   margin: 0 5px 0;
-  background: lightgrey;
+  background-color: lightgrey;
   background-size: cover;
   border-radius: 100%;
+  cursor: pointer;
 }
 
-.request-categories li:hover {
+.request-categories a:hover {
   color: white;
   background-color: #000;
 }
 
-.request-categories li:first-child {
+.request-categories a:first-child {
   margin-left: 0;
 }
 
-.request-categories li:last-child {
+.request-categories a:last-child {
   margin-right: 0;
 }
 
@@ -257,6 +256,10 @@ PAGE: REQUESTS
   background-color: #eefefe;
 }
 
+.request-categories a.active_category {
+  color: white;
+  background-color: #5f9ea0;
+}
 
 
 /*****************************************************
