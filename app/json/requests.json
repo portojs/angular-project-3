@@ -1,0 +1,32 @@
+[
+  {
+    "id" : 1,
+    "category": "Infiltration",
+    "title": "In and out",
+    "body" : "Get some sensitive document from a secret facility in deep mountains."
+  },
+  {
+    "id" : 2,
+    "category": "Data Gathering",
+    "title": "Find a weak spot",
+    "body" : "We need some info on our competitor."
+  },
+  {
+    "id" : 3,
+    "category": "Assassination",
+    "title": "Goodbye Mr. Vice President",
+    "body" : "He knows too much and prevents us from acting, so we need him removed - permanently."
+  },
+  {
+    "id" : 4,
+    "category": "Revolution",
+    "title": "Times are changing",
+    "body" : "The old communist regime must make way for the new market forces."
+  },
+  {
+    "id" : 5,
+    "category": "Infiltration",
+    "title": "Under the city streets",
+    "body" : "One of our agents is held by a mysterious sect deep in ancient catacombs, we need him rescued."
+  }
+]
