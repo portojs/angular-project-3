@@ -1,0 +1,22 @@
+[
+  {
+    "id" : 1,
+    "title": "Infiltration",
+    "body" : "I"
+  },
+  {
+    "id" : 2,
+    "title": "Data Gathering",
+    "body" : "D"
+  },
+  {
+    "id" : 3,
+    "title": "Assassination",
+    "body" : "A"
+  },
+  {
+    "id" : 4,
+    "title": "Revolution",
+    "body" : "R"
+  }
+]
