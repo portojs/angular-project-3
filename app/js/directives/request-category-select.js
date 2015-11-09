@@ -25,6 +25,9 @@ angular.module('mercCompany')
         this.setActiveCategory = function(category) {
           $scope.activeCategory = category.title;
         };
+        this.notActiveCategory = function() {
+          $scope.activeCategory = "";
+        };
       }
     }
   });
