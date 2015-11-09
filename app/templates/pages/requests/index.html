@@ -4,19 +4,19 @@
 
   <div class="request-categories">
     <ul>
-      <li class="category-infiltration"></li>
-      <li class="category-assassination"></li>
-      <li class="category-gathering"></li>
-      <li class="category-revolution"></li>
+      <li class="category-infiltration">I</li>
+      <li class="category-assassination">A</li>
+      <li class="category-gathering">D</li>
+      <li class="category-revolution">R</li>
     </ul>
   </div>
   <div class="request-search">
     <label for="search">Type below to search: </label>
-    <input type="search" id="search">
+    <input type="search" id="search" ng-model="search.input">
   </div>
-  <div>
+  <div id="request-list">
     <ul>
-      <li ng-repeat="request in requests">
+      <li ng-repeat="request in requests | filter: search.input">
         <p>Category: {{request.category}}</p>
         <p>Title: {{request.title}}</p>
         <p>Content: {{request.body}}</p>

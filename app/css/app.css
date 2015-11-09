@@ -216,14 +216,20 @@ PAGE: REQUESTS
 }
 
 .request-categories li {
+  font-size: 2em;
   display: inline-block;
   height: 40px;
   width: 40px;
   padding: 10px 10px;
   margin: 0 5px 0;
-  background: lightgrey url('../img/phone.png') no-repeat center;
+  background: lightgrey;
   background-size: cover;
   border-radius: 100%;
+}
+
+.request-categories li:hover {
+  color: white;
+  background-color: #000;
 }
 
 .request-categories li:first-child {
@@ -237,6 +243,20 @@ PAGE: REQUESTS
 #search {
   width: 250px;
 }
+
+#request-list {
+  width: 100%;
+  margin: auto;
+}
+
+#request-list ul {
+  list-style: none;
+}
+
+#request-list li {
+  background-color: #eefefe;
+}
+
 
 
 /*****************************************************
