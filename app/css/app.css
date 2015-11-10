@@ -196,6 +196,28 @@ PAGE: MERCS
 PAGE: REQUESTS
 *****************************************************/
 
+form {
+  width: 90%;
+  margin: 0 5% 0.75em;
+}
+
+form > div {
+  overflow: hidden;
+}
+
+form label,
+form select,
+form textarea,
+form input {
+  color: black;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: #add8e6;
+}
+
 request-category-select {
   margin-bottom: 1.25em;
 }
@@ -221,7 +243,7 @@ button {
   background-color: lightyellow;
 }
 
-label,
+.request-search label,
 request-category-select p {
   color: black;
   display: block;

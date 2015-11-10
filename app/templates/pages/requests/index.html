@@ -2,14 +2,32 @@
 
   <h3>Here you can place your requests:</h3>
 
-  <button>Post a request</button>
+  <button>Open 'Add a request' form</button>
+
+  <form name="requestForm" ng-submit="requestForm.$valid && addRequest()" novalidate>
+    <label for="select-category">Category:</label>
+    <select id="select-category" ng-model="request.category" required>
+      <option value="Infiltration">Infiltration</option>
+      <option value="Data Gathering">Data Gathering</option>
+      <option value="Assassination">Assassination</option>
+      <option value="Revolution">Revolution</option>
+    </select>
+    <label for="input-title">Title:</label>
+    <input id="input-title" type="text" ng-model="request.title" required />
+    <label for="input-content">Title:</label>
+    <textarea id="input-content" ng-model="request.body" required></textarea>
+    <input type="submit" value="Submit" />
+  </form>
+
   <div class="request-categories">
     <request-category-select active-category="activeCategory"></request-category-select>
   </div>
+
   <div class="request-search">
     <label for="search">Type below to search: </label>
     <input type="search" id="search" ng-model="search.input" placeholder="Please input your search request here">
   </div>
+
   <div id="request-list">
     <ul>
       <li ng-repeat="request in requests | filter: search.input | filter: {category: activeCategory}">
@@ -19,4 +37,5 @@
       </li>
     </ul>
   </div>
+
 </div>
