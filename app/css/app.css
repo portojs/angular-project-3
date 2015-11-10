@@ -204,8 +204,35 @@ request-category-select {
   text-align: center;
 }
 
+button {
+  color: white;
+  font-weight: bold;
+  background-color: darkslategrey;
+  border: none;
+  width: 90%;
+  margin: 0 5% 1em;
+}
+
+.request-search input {
+  width: 90%;
+  margin: 0 5%;
+  padding: 0;
+  border: none;
+  background-color: lightyellow;
+}
+
+label,
+request-category-select p {
+  color: black;
+  display: block;
+  width: 90%;
+  margin: 0 5% 0.75em;
+  background-color: lightgrey;
+
+}
+
 .request-categories,
-.request-search{
+.request-search {
   text-align: center;
 }
 
@@ -220,36 +247,34 @@ request-category-select {
   width: 40px;
   padding: 10px 10px;
   margin: 0 5px 0;
-  background-color: lightgrey;
-  background-size: cover;
+  color: white;
+  background-color: darkslategrey;
   border-radius: 100%;
   cursor: pointer;
 }
 
-.request-categories a:hover {
+.request-categories a:hover,
+button:hover {
   color: white;
-  background-color: #000;
+  background-color: darkorange;
 }
 
-.request-categories a:first-child {
-  margin-left: 0;
-}
+/*.request-categories a:first-child {*/
+  /*margin-left: 0;*/
+/*}*/
 
-.request-categories a:last-child {
-  margin-right: 0;
-}
-
-#search {
-  width: 250px;
-}
+/*.request-categories a:last-child {*/
+  /*margin-right: 0;*/
+/*}*/
 
 #request-list {
-  width: 100%;
-  margin: auto;
+  width: 90%;
+  margin: 0 5%;
 }
 
 #request-list ul {
   list-style: none;
+  padding: 0;
 }
 
 #request-list li {

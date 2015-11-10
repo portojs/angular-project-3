@@ -2,18 +2,13 @@
 
   <h3>Here you can place your requests:</h3>
 
+  <button>Post a request</button>
   <div class="request-categories">
-    <!--<ul>-->
-      <!--<li class="category-infiltration">I</li>-->
-      <!--<li class="category-assassination">A</li>-->
-      <!--<li class="category-gathering">D</li>-->
-      <!--<li class="category-revolution">R</li>-->
-    <!--</ul>-->
     <request-category-select active-category="activeCategory"></request-category-select>
   </div>
   <div class="request-search">
     <label for="search">Type below to search: </label>
-    <input type="search" id="search" ng-model="search.input">
+    <input type="search" id="search" ng-model="search.input" placeholder="Please input your search request here">
   </div>
   <div id="request-list">
     <ul>
