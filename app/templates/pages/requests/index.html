@@ -2,9 +2,9 @@
 
   <h3>Here you can place your requests:</h3>
 
-  <button>Open 'Add a request' form</button>
+  <button ng-click="showing = !showing">{{showing ? 'Close form' : 'Open form'}}</button>
 
-  <form name="requestForm" ng-submit="requestForm.$valid && addRequest()" novalidate>
+  <form name="requestForm" ng-submit="requestForm.$valid && addRequest()" ng-show="showing" novalidate>
     <label for="select-category">Category:</label>
     <select id="select-category" ng-model="request.category" required>
       <option value="Infiltration" selected="selected">Infiltration</option>

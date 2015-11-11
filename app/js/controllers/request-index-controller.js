@@ -3,6 +3,7 @@
  */
 angular.module('mercCompany')
   .controller('RequestIndexController', function($scope, Requests) {
+    $scope.showing = false;
     $scope.request = {};
     $scope.requests = Requests.query();
     $scope.requestsNew = [
