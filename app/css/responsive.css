@@ -80,6 +80,25 @@
     border-bottom: 5px solid darkcyan;
     margin-bottom: 60px;
   }
+
+  /*****************************************************
+  PAGE: REQUESTS
+  *****************************************************/
+
+  .request-categories2 {
+    display: inline-block;
+    float: right;
+  }
+
+  #request-list {
+    float: left;
+  }
+
+  .request-categories2,
+  #request-list {
+    width: 45%;
+    margin: 0 2.5%;
+  }
 }
 
 @media screen and (min-width: 960px) {

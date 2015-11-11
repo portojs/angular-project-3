@@ -197,8 +197,8 @@ PAGE: REQUESTS
 *****************************************************/
 
 form {
-  width: 90%;
-  margin: 0 5% 0.75em;
+  width: 100%;
+  margin: 0 0 0.75em;
 }
 
 form > div {
@@ -237,13 +237,13 @@ button {
   font-weight: bold;
   background-color: darkslategrey;
   border: none;
-  width: 90%;
-  margin: 0 5% 1em;
+  width: 100%;
+  margin: 0 0 1em;
 }
 
 .request-search input {
-  width: 90%;
-  margin: 0 5%;
+  width: 100%;
+  margin: 0;
   padding: 0;
   border: none;
 }
@@ -252,8 +252,8 @@ button {
 request-category-select p {
   color: black;
   display: block;
-  width: 90%;
-  margin: 0 5% 0.75em;
+  width: 100%;
+  margin: 0 0 0.75em;
   background-color: lightgrey;
 
 }
@@ -292,17 +292,9 @@ form input[type = "submit"]:hover {
   background-color: darkorange;
 }
 
-/*.request-categories a:first-child {*/
-  /*margin-left: 0;*/
-/*}*/
-
-/*.request-categories a:last-child {*/
-  /*margin-right: 0;*/
-/*}*/
-
 #request-list {
-  width: 90%;
-  margin: 0 5%;
+  width: 100%;
+  margin: 0;
 }
 
 #request-list ul {
@@ -317,6 +309,10 @@ form input[type = "submit"]:hover {
 .request-categories a.active_category {
   color: white;
   background-color: #5f9ea0;
+}
+
+.request-categories2 {
+  display: none;
 }
 
 
