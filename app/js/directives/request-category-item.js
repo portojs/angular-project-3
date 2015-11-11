@@ -7,7 +7,8 @@ angular.module('mercCompany')
       restrict: 'E',
       templateUrl: 'templates/directives/request-category-item.html',
       scope: {
-        category: "="
+        category: '=',
+        screen: '='
       },
       require: "^requestCategorySelect",
       link: function(scope, element, attrs, requestCategorySelect) {

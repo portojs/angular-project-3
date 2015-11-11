@@ -85,9 +85,17 @@
   PAGE: REQUESTS
   *****************************************************/
 
+  .request-categories {
+    display: none;
+  }
+
   .request-categories2 {
     display: inline-block;
     float: right;
+  }
+
+  .request-categories2 p {
+    text-align: center;
   }
 
   #request-list {
@@ -97,6 +105,24 @@
   .request-categories2,
   #request-list {
     width: 47.5%;
+  }
+
+  .request-categories2 request-category-item a {
+    display: block;
+    background-color: darkslategrey;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .request-categories2 request-category-item a:hover {
+    color: white;
+    background-color: darkorange;
+  }
+
+  .request-categories2 a.active_category {
+    color: white;
+    background-color: #5f9ea0;
   }
 }
 

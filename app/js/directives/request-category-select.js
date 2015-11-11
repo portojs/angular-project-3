@@ -7,16 +7,12 @@ angular.module('mercCompany')
       restrict: 'E',
       templateUrl: 'templates/directives/request-category-select.html',
       scope: {
-        activeCategory: '='
+        activeCategory: '=',
+        screen: '='
       },
-      link: function(scope) {
+      link: function(scope, element, attrs) {
         scope.categories = Category.query();
-        //scope.setActiveCategory = function(category) {
-        //  scope.activeCategory = category.title;
-        //};
-        //scope.getActiveCategory = function() {
-        //  return scope.activeCategory;
-        //};
+        //scope.showing = element.hasClass('largeScreen') ? true : false;
       },
       controller: function($scope) {
         this.getActiveCategory = function() {

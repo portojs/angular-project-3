@@ -278,20 +278,6 @@ request-category-select p {
   cursor: pointer;
 }
 
-.request-categories a,
-button,
-form input[type = "submit"] {
-  background-color: darkslategrey;
-  color: white;
-}
-
-.request-categories a:hover,
-button:hover,
-form input[type = "submit"]:hover {
-  color: white;
-  background-color: darkorange;
-}
-
 #request-list {
   width: 100%;
   padding-top: 0;
@@ -310,6 +296,20 @@ form input[type = "submit"]:hover {
 .list-category {
   padding: 0;
   margin: 0;
+}
+
+.request-categories a,
+button,
+form input[type = "submit"] {
+  background-color: darkslategrey;
+  color: white;
+}
+
+.request-categories a:hover,
+button:hover,
+form input[type = "submit"]:hover {
+  color: white;
+  background-color: darkorange;
 }
 
 .request-categories a.active_category {
