@@ -31,7 +31,7 @@
   <div id="request-list">
     <ul>
       <li ng-repeat="request in requestsNew | filter: search.input | filter: {category: activeCategory}">
-        <p>Category: {{request.category}}</p>
+        <p class="list-category">Category: {{request.category}}</p>
         <p>Title: {{request.title}}</p>
         <p>Content: {{request.body}}</p>
       </li>

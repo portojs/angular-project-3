@@ -243,7 +243,7 @@ button {
 
 .request-search input {
   width: 100%;
-  margin: 0;
+  margin: 0 0 1em;
   padding: 0;
   border: none;
 }
@@ -294,16 +294,22 @@ form input[type = "submit"]:hover {
 
 #request-list {
   width: 100%;
-  margin: 0;
+  padding-top: 0;
 }
 
 #request-list ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 #request-list li {
   background-color: #eefefe;
+}
+
+.list-category {
+  padding: 0;
+  margin: 0;
 }
 
 .request-categories a.active_category {
