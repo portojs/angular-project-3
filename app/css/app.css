@@ -215,7 +215,13 @@ form input {
   padding: 0;
   margin: 0;
   border: none;
-  background-color: #add8e6;
+}
+
+form select,
+form input,
+form textarea,
+.request-search input {
+  background-color: lightyellow;
 }
 
 request-category-select {
@@ -240,7 +246,6 @@ button {
   margin: 0 5%;
   padding: 0;
   border: none;
-  background-color: lightyellow;
 }
 
 .request-search label,
@@ -269,14 +274,20 @@ request-category-select p {
   width: 40px;
   padding: 10px 10px;
   margin: 0 5px 0;
-  color: white;
-  background-color: darkslategrey;
   border-radius: 100%;
   cursor: pointer;
 }
 
+.request-categories a,
+button,
+form input[type = "submit"] {
+  background-color: darkslategrey;
+  color: white;
+}
+
 .request-categories a:hover,
-button:hover {
+button:hover,
+form input[type = "submit"]:hover {
   color: white;
   background-color: darkorange;
 }
